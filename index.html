@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fruit Burst</title>
 
-  <!-- import google fonts starts-->
+  <!-- import google fonts 'Lato' starts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -54,12 +54,48 @@
 
 </head>
 
-<body>
-  <header>
+<body class="font-lato font-medium text-white">
+  <header class="container mx-auto">
+
+    <!-- navbar starts -->
+    <div
+      class="flex justify-between md:justify-around items-center px-9 py-5 lg:bg-primary-col rounded-[500px] mt-10 mb-10">
+
+      <div class="hidden lg:flex flex-1">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Shop</a></li>
+          <li><a>All Fruits</a></li>
+        </ul>
+      </div>
+
+      <div class="flex md:flex-1 lg:justify-center items-center gap-3 lg:pr-10">
+        <img class="w-10" src="images/logos/logo.png" alt="logo">
+        <h3 class="text-black lg:text-white">Fruit Burst</h3>
+      </div>
+
+      <!-- navbar special item only for medium or Tablet device starts-->
+      <div class="hidden md:flex md:flex-1  lg:hidden  md:justify-center">
+        <input type="text" placeholder="Search here" class="input w-50% input-bordered rounded-full" />
+      </div>
+      <!-- navbar special item only for medium or Tablet device Ends-->
+
+      <div class="flex-1 flex justify-end lg:hidden w-8">
+        <img src="./images/icons/hamburger-menu.svg" alt="Hamburger menu icon">
+        </nav>
+      </div>
+
+      <div class="lg:flex-1 hidden lg:flex lg:justify-end">
+        <input type="text" placeholder="Search here" class="input lg:w-[75%] input-bordered rounded-full" />
+      </div>
+
+    </div>
+    <!-- navbar Ends -->
 
   </header>
 
-  <main>
+  <main class="container mx-auto">
 
   </main>
 
