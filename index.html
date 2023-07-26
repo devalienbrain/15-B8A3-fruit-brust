@@ -38,6 +38,9 @@
             'slider4-bg': "url('images/banner4.png')",
             'team-bg': "url('images/team.png')",
           },
+          borderRadius: {
+            'default': '0.5rem',
+          },
         },
       },
     }
@@ -93,7 +96,7 @@
     <!-- navbar Ends -->
 
     <!-- Carousel Banner Starts-->
-    <section class="carousel w-full">
+    <section class="carousel w-full rounded-lg">
       <!-- Slide 1 Starts -->
       <div id="slide1" class="carousel-item relative w-full bg-slider1-bg">
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -388,11 +391,11 @@
     <!-- Deal of the day section Ends -->
 
     <!-- Meet the Team section Starts -->
-    <section class="mt-14 hero min-h-screen bg-team-bg">
-      <div class="bg-[#121212] hero-overlay bg-opacity-70">
+    <section class="mt-14 hero min-h-screen bg-team-bg rounded-default">
+      <div class="bg-[#121212] hero-overlay bg-opacity-70 rounded-lg">
       </div>
 
-      <div class="hero-content text-center text-neutral-content">
+      <div class="hero-content text-center text-neutral-content rounded-lg">
         <div class="max-w-3xl">
 
           <h1 class="mb-5 text-3xl md:text-5xl font-bold">
